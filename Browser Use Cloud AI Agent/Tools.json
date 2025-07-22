@@ -1,0 +1,362 @@
+
+{
+  "type": "object",
+  "description": "AgentOutput model with custom actions",
+  "properties": {
+    "evaluation_previous_goal": {
+      "type": "string"
+    },
+    "memory": {
+      "type": "string"
+    },
+    "next_goal": {
+      "type": "string"
+    },
+    "action": {
+      "type": "array",
+      "description": "List of actions to execute",
+      "minItems": 1,
+      "items": {
+        "description": "Union of all available action models that maintains ActionModel interface",
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "done": {
+                "type": "object",
+                "description": "Complete task - provide a summary of results for the user. Set success=True if task completed successfully, false otherwise. Text should be your response to the user summarizing results. Include files you would like to display to the user in files_to_display.",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "success": {
+                    "type": "boolean"
+                  },
+                  "files_to_display": {
+                    "type": ["array", "null"],
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": ["text", "success", "files_to_display"]
+              }
+            },
+            "required": ["done"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "search_google": {
+                "type": "object",
+                "description": "Search the query in Google, the query should be a search query like humans search in Google, concrete and not vague or super long.",
+                "properties": {
+                  "query": {
+                    "type": "string"
+                  }
+                },
+                "required": ["query"]
+              }
+            },
+            "required": ["search_google"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "go_to_url": {
+                "type": "object",
+                "description": "Navigate to URL, set new_tab=True to open in new tab, False to navigate in current tab",
+                "properties": {
+                  "url": {
+                    "type": "string"
+                  },
+                  "new_tab": {
+                    "type": "boolean"
+                  }
+                },
+                "required": ["url", "new_tab"]
+              }
+            },
+            "required": ["go_to_url"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "go_back": {
+                "type": "object",
+                "description": "Accepts absolutely anything in the incoming data\nand discards it, so the final parsed model is empty.",
+                "properties": {
+                  "_placeholder": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "required": ["go_back"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "wait": {
+                "type": "object",
+                "description": "Wait for x seconds default 3",
+                "properties": {
+                  "seconds": {
+                    "type": "integer"
+                  }
+                },
+                "required": ["seconds"]
+              }
+            },
+            "required": ["wait"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "click_element_by_index": {
+                "type": "object",
+                "description": "Click element by index",
+                "properties": {
+                  "index": {
+                    "type": "integer"
+                  }
+                },
+                "required": ["index"]
+              }
+            },
+            "required": ["click_element_by_index"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "input_text": {
+                "type": "object",
+                "description": "Click and input text into a input interactive element",
+                "properties": {
+                  "index": {
+                    "type": "integer"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": ["index", "text"]
+              }
+            },
+            "required": ["input_text"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "upload_file": {
+                "type": "object",
+                "description": "Upload file to interactive element with file path",
+                "properties": {
+                  "index": {
+                    "type": "integer"
+                  },
+                  "path": {
+                    "type": "string"
+                  }
+                },
+                "required": ["index", "path"]
+              }
+            },
+            "required": ["upload_file"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "switch_tab": {
+                "type": "object",
+                "description": "Switch tab",
+                "properties": {
+                  "page_id": {
+                    "type": "integer"
+                  }
+                },
+                "required": ["page_id"]
+              }
+            },
+            "required": ["switch_tab"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "close_tab": {
+                "type": "object",
+                "description": "Close an existing tab",
+                "properties": {
+                  "page_id": {
+                    "type": "integer"
+                  }
+                },
+                "required": ["page_id"]
+              }
+            },
+            "required": ["close_tab"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "extract_structured_data": {
+                "type": "object",
+                "description": "Extract structured, semantic data (e.g. product description, price, all information about XYZ) from the current webpage based on a textual query.\nThis tool takes the entire markdown of the page and extracts the query from it. \nSet extract_links=True ONLY if your query requires extracting links/URLs from the page. \nOnly use this for specific queries for information retrieval from the page. Don\'t use this to get interactive elements - the tool does not see HTML elements, only the markdown.\n",
+                "properties": {
+                  "query": {
+                    "type": "string"
+                  },
+                  "extract_links": {
+                    "type": "boolean"
+                  }
+                },
+                "required": ["query", "extract_links"]
+              }
+            },
+            "required": ["extract_structured_data"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "scroll": {
+                "type": "object",
+                "description": "Scroll the page by one page (set down=True to scroll down, down=False to scroll up)",
+                "properties": {
+                  "down": {
+                    "type": "boolean"
+                  }
+                },
+                "required": ["down"]
+              }
+            },
+            "required": ["scroll"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "send_keys": {
+                "type": "object",
+                "description": "Send strings of special keys to use Playwright page.keyboard.press - examples include Escape, Backspace, Insert, PageDown, Delete, Enter, or Shortcuts such as `Control+o`, `Control+Shift+T`",
+                "properties": {
+                  "keys": {
+                    "type": "string"
+                  }
+                },
+                "required": ["keys"]
+              }
+            },
+            "required": ["send_keys"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "scroll_to_text": {
+                "type": "object",
+                "description": "Scroll to a text in the current page",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": ["text"]
+              }
+            },
+            "required": ["scroll_to_text"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "write_file": {
+                "type": "object",
+                "description": "Write content to file_name in file system. Allowed extensions are .md, .txt, .json, .csv.",
+                "properties": {
+                  "file_name": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  }
+                },
+                "required": ["file_name", "content"]
+              }
+            },
+            "required": ["write_file"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "append_file": {
+                "type": "object",
+                "description": "Append content to file_name in file system",
+                "properties": {
+                  "file_name": {
+                    "type": "string"
+                  },
+                  "content": {
+                    "type": "string"
+                  }
+                },
+                "required": ["file_name", "content"]
+              }
+            },
+            "required": ["append_file"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "read_file": {
+                "type": "object",
+                "description": "Read file_name from file system",
+                "properties": {
+                  "file_name": {
+                    "type": "string"
+                  }
+                },
+                "required": ["file_name"]
+              }
+            },
+            "required": ["read_file"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "get_dropdown_options": {
+                "type": "object",
+                "description": "Get all options from a native dropdown",
+                "properties": {
+                  "index": {
+                    "type": "integer"
+                  }
+                },
+                "required": ["index"]
+              }
+            },
+            "required": ["get_dropdown_options"]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "select_dropdown_option": {
+                "type": "object",
+                "description": "Select dropdown option for interactive element index by the text of the option you want to select",
+                "properties": {
+                  "index": {
+                    "type": "integer"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": ["index", "text"]
+              }
+            },
+            "required": ["select_dropdown_option"]
+          }
+        ]
+      }
+    }
+  },
+  "required": ["evaluation_previous_goal", "memory", "next_goal", "action"]
+}
+
+
