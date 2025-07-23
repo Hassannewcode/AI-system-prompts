@@ -12,9 +12,9 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 *Uncensored AI's:
 
   -Venice AI
-
+ 
 *AI Agents:
-
+ 
   -Manus AI
 
   -Browser Use Cloud AI
