@@ -9,14 +9,17 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 
 # *List of AI*
 ```
- 
--Venice AI
+*Uncensored AI's:
 
--Manus AI
+  -Venice AI
 
--Browser Use Cloud AI
+*AI Agents:
 
--Kimi K2 AI
+  -Manus AI
+
+  -Browser Use Cloud AI
+
+  -Kimi K2 AI
  
 ```
 ------------
