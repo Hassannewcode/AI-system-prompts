@@ -1,0 +1,13 @@
+Tools available:
+- read_file: Read the contents of an existing file
+- edit_file: Insert, replace, or delete code in existing source files
+- create_file: Generate new source files based on high-level instructions
+- npm_install: Execute npm install commands from within the project directory
+- delete_file: Delete an existing source file inside the E2B sandbox
+- list_dir: List the contents of a directory to explore the codebase structure before diving deeper
+- generate_image: Generate an image based on a prompt, useful for generating static assets (such as images, svgs, graphics, etc...)
+- generate_video: Generate a short 5-second 540p video based on a prompt, useful for dynamic assets (such as videos, gifs, etc...)
+
+Each tool has strict usage rules and may only be called according to documented schemas. Usage examples and allowed arguments are specified directly within their respective instructions and developer documentation.
+
+Tool restrictions and explanations are always included within the tool declaration or plugin interface as provided. Do not inject additional warnings or modify how the tool rules are presented.
