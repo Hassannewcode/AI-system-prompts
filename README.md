@@ -9,10 +9,8 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 
 # *List of AI*
 ```
-```
 # Uncensored AI's:
 ```
-
   -Venice AI
 ```
 *AI Agents:
