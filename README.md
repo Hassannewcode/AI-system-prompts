@@ -7,15 +7,15 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 
 ------------
 
-# List of AI's:
+# *List of AI's:*
 ```
-*-Venice AI*
+-Venice AI
 
-*-Manus AI*
+-Manus AI
 
-*-Browser Use Cloud AI*
+-Browser Use Cloud AI
 
-*-Kimi K2 AI*
+-Kimi K2 AI
 ```
 ------------
 
