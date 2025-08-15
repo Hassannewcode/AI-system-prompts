@@ -18,8 +18,13 @@ These specific prompts, despite their appearance, are not officially sanctioned 
  DO NOT relicate similar actions done by this repository, else you might get in trouble.
 ```
 # *List of AI*
- 
- 
+
+-----
+
+# Popular AI's
+```
+  -Google Gemini AI (Specifically the Google AI studio Build Apps type)
+``` 
 # Uncensored AI's:
 ```
   -Venice AI
@@ -34,7 +39,7 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 ```
 # Webpage Creating AI's
 ```
-
+  -Emergent AI Unofficial
   -Orchids AI
 ```
 ------------
