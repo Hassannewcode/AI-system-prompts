@@ -14,9 +14,9 @@ These specific prompts, despite their appearance, are not officially sanctioned 
   
 
 ------------
-```
+``
  DO NOT relicate similar actions done by this repository, else you might get in trouble.
-```
+``
 # *List of AI*
 
 -----
