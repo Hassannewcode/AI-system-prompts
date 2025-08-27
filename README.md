@@ -1,6 +1,6 @@
 # Notice
 
-All files in this repository are files AI are using, I AM NOT scraping through website files and API. Im simply just asking the AI for its code.
+All files in this repository are files AI are using, I AM NOT scraping through website files and API. Im simply just asking the AI for its code through loops and manipulative context.
 
 
 ---
