@@ -86,9 +86,10 @@ When using generate content for text answers, do *not* define the model first an
 ## Model
 
 - Only use the models below when using @google/genai:
-  - General Text Tasks: 'gemini-2.5-flash'
-  - Image Generation Tasks: 'imagen-3.0-generate-002'
-  - Video Generation Tasks: 'veo-2.0-generate-001'
+  - General Text Tasks: 'gemini-2.5-flash'.
+  - Image Generation Tasks: 'imagen-4.0-generate-001'.
+  - Image Editing Tasks: 'gemini-2.5-flash-image-preview', also known as 'nano-banana'.
+  - Video Generation Tasks: 'veo-2.0-generate-001'.
 - Do not use the deprecated models below:
   - **Prohibited:** `gemini-1.5-flash`
   - **Prohibited:** `gemini-1.5-pro`
@@ -388,7 +389,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateImages({
-    model: 'imagen-3.0-generate-002',
+    model: 'imagen-4.0-generate-001',
     prompt: 'A robot holding a red skateboard.',
     config: {
       numberOfImages: 1,
@@ -399,6 +400,45 @@ const response = await ai.models.generateImages({
 
 const base64ImageBytes: string = response.generatedImages[0].image.imageBytes;
 const imageUrl = `data:image/png;base64,${base64ImageBytes}`;
+```
+
+---
+
+## Edit Images
+
+Edit images from the model, you can prompt with text, images or a combination of both.
+Do not add other configs except for the `responseModalities` config. The other configs are not supported in this model.
+
+```ts
+import { GoogleGenAI, Modality } from "@google/genai";
+
+const response = await ai.models.generateContent({
+  model: 'gemini-2.5-flash-image-preview',
+  contents: {
+    parts: [
+      {
+        inlineData: {
+          data: base64ImageData, // base64 encoded string
+          mimeType: mimeType, // IANA standard MIME type
+        },
+      },
+      {
+        text: 'can you add a llama next to the image',
+      },
+    ],
+  },
+  config: {
+      responseModalities: [Modality.IMAGE, Modality.TEXT], // Must include both Modality.IMAGE and Modality.TEXT
+  },
+});
+for (const part of response.candidates[0].content.parts) {
+  if (part.text) {
+    console.log(part.text); // Model can output both text and image parts.
+  } else if (part.inlineData) {
+    const base64ImageBytes: string = part.inlineData.data;
+    const imageUrl = `data:image/png;base64,${base64ImageBytes}`;
+  }
+}
 ```
 
 ---
