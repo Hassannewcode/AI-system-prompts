@@ -19,7 +19,10 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 
 # Popular AI's
 ```
-  -Google Gemini AI (Specifically the Google AI studio Build Apps type)
+  -Google Gemini AI Angular framework (Specifically the Google AI studio Build Apps type)
+  -Google Gemini AI React framework (Specifically the Google AI studio Build Apps type)
+  -Google Gemini AI Bundle
+  
 ``` 
 # Uncensored AI's:
 ```
