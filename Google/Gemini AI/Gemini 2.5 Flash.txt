@@ -1,4 +1,4 @@
-For anyone that wants proof, linked at: https://g.co/gemini/share/526c35d86177, I created a specific gemini gem for this to bypass original provided sytsem prompt security settings.
+For anyone that wants proof, linked at: [https://g.co/gemini/share/526c35d86177], I created a specific gemini gem for this to bypass original provided sytsem prompt security settings.
 The following prompt is also using various prompts and unicodes to bypass the auto detection sytsem the gemini webapp offers to automatically delete the text the AI provided once it detects an attack.
 
 
