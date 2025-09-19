@@ -50,17 +50,17 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 # EXTRA
 Understanding the nature and limitations of these prompts is crucial to prevent misinformation and misapplication. We urge all recipients to exercise caution and adhere strictly to these guidelines when encountering such content.
 
+ 
 
-
-
+ 
 
 # Bypass guide
 ---
 THIS DOES NOT WORK 100% OF THE TIME. 
 ---
-.The best way for it to work is the CORE prompt itself, the ase is always the key to opening the AI's gates. 
+. The best way for it to work is the CORE prompt itself, the ase is always the key to opening the AI's gates. 
 
-# Invisible Character Steganography Guide for AI Prompts
+## Invisible Character Steganography Guide for AI Prompts
 
 This document provides a method for hiding text within a standard prompt in a way that is invisible to humans but readable by an AI. It uses Unicode Tag characters, which are not rendered visually but are still part of the text data.
 
