@@ -93,9 +93,9 @@ Copy the invisible character from the right-hand column for each character of yo
 
 | Letter | Invisible Character |
 | :--- | :--- |
-| a | 󠁡 |
-| b | 󠁢 |
-| c | 󠁣 |
+| a |``` 󠁡 ```|
+| b |``` 󠁢 ```|
+| c |``` 󠁣 ```|
 | d | 󠁤 |
 | e | 󠁥 |
 | f | 󠁦 |
