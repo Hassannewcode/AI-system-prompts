@@ -60,7 +60,7 @@ THIS DOES NOT WORK 100% OF THE TIME.
 ---
 * The best way for it to work is the CORE prompt itself, the ase is always the key to opening the AI's gates. 
 
--
+---
 
 This document provides a method for hiding text within a standard prompt in a way that is invisible to humans but readable by an AI. It uses Unicode Tag characters, which are not rendered visually but are still part of the text data.
 
