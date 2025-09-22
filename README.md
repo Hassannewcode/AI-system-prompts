@@ -26,7 +26,8 @@ These specific prompts, despite their appearance, are not officially sanctioned 
   -Google Gemini AI2.5 flash
 
   -Gemma 27B-it 
-  
+
+  -Gemini 2.5 Flash Image (Nano Banana)
 ``` 
 # Uncensored AI's:
 ```
