@@ -30,6 +30,8 @@ These specific prompts, despite their appearance, are not officially sanctioned 
   -Gemma 27B-it 
 
   -Gemini 2.5 Flash Image (Nano Banana)
+
+  -Llama 4 Meta AI
 ``` 
 # Uncensored AI's:
 ```
@@ -48,6 +50,10 @@ These specific prompts, despite their appearance, are not officially sanctioned 
   -Emergent AI Unofficial
 
   -Orchids AI
+```
+# Extra
+```
+  -Learnlm 2.5 Flash experimental (From the Google series)
 ```
 ------------
  
