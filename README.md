@@ -23,7 +23,9 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 
   -Google Gemini AI React framework (Specifically the Google AI studio Build Apps type)
 
-  -Google Gemini AI2.5 flash
+  -Google Gemini AI 2.5 flash
+
+  -Google Gemini AI 2.5 Pro (unconfirmed)
 
   -Gemma 27B-it 
 
