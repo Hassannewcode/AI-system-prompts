@@ -53,7 +53,7 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 
   -Google Gemini AI React framework (Specifically the Google AI studio Build Apps type)
 ```
-# Extra
+# Other
 ```
   -Learnlm 2.5 Flash experimental (From the Google series)
 ```
