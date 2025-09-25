@@ -28,6 +28,8 @@ These specific prompts, despite their appearance, are not officially sanctioned 
   -Gemini 2.5 Flash Image (Nano Banana)
 
   -Llama 4 Meta AI
+
+  -Deepseek (unconfirmed, no specific model)
 ``` 
 # Uncensored AI's:
 ```
