@@ -49,9 +49,11 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 
   -Orchids AI
 
-  -Google Gemini AI Angular framework (Specifically the Google AI studio Build Apps type)
+  -Google Gemini AI 2.5 flash Angular framework (Build Apps type https://aistudio.google.com/apps)
 
-  -Google Gemini AI React framework (Specifically the Google AI studio Build Apps type)
+  -Google Gemini AI 2.5 flash React framework (Build Apps type https://aistudio.google.com/apps)
+
+  -Google Gemini 3 Flash Preview React (Build Apps type https://aistudio.google.com/apps)
 ```
 # Other
 ```
