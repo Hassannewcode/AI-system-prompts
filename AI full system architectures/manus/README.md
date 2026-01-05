@@ -1,2 +1,2 @@
-# 4gb FULL linux system of Manus AI 
+## 4gb FULL linux system of Manus AI 
 ###### *Before Meta AI is making changes*
