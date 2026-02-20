@@ -55,9 +55,11 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 
   -Google Gemini 3 Flash Preview React (Build Apps type https://aistudio.google.com/apps)
 ```
+
 # Other
 ```
   -Learnlm 2.5 Flash experimental (From the Google series)
+  -Chrome DevTools AI Assistant
 ```
 # AI system architecture 
 ```
@@ -69,5 +71,12 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 # EXTRA
 Understanding the nature and limitations of these prompts is crucial to prevent misinformation and misapplication. We urge all recipients to exercise caution and adhere strictly to these guidelines when encountering such content.
 
- 
+
+
+ -------
+
+ ## REQUESTING AI MODELS 
+
+ If you would like to request an AI model on here, contribute by adding the specific model of the ai in the "request.md". 
+ If you dont know the specific model or exact model, then type in the name of the AI itself instead.
 
