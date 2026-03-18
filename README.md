@@ -45,7 +45,7 @@ These specific prompts, despite their appearance, are not officially sanctioned 
 ```
 # Webpage Creating AI's
 ```
-  -Emergent AI Unofficial
+  -Emergent AI unconfirmed
 
   -Orchids AI
 
