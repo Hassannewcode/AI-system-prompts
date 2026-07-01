@@ -13,23 +13,24 @@ Understanding the nature, boundaries, and limitations of these prompts is crucia
 
 | Model / Architecture | Status / Type | File Link |
 | :--- | :--- | :--- |
-| **Gemini 2.5<br>Flash** | Popular<br>AI | [View<br>Prompt](./gemini-2.5-flash.md) |
-| **Gemini 2.5<br>Pro** | *Uncon-<br>firmed* | [View<br>Prompt](./gemini-2.5-pro.md) |
-| **Gemma<br>27B-it** | Popular<br>AI | [View<br>Prompt](./gemma-27b-it.md) |
-| **Gemini 2.5<br>Flash Image** | Nano<br>Banana | [View<br>Prompt](./gemini-2.5-flash-image.md) |
-| **Llama 4<br>(Meta AI)** | Popular<br>AI | [View<br>Prompt](./llama-4.md) |
-| **DeepSeek** | *Uncon-<br>firmed* | [View<br>Prompt](./deepseek.md) |
-| **Venice<br>AI** | Uncen-<br>sored | [View<br>Prompt](./venice-ai.md) |
-| **Manus<br>AI** | Agent /<br>Arch. | [View<br>Prompt](./manus-ai.md) |
-| **Browser Use<br>Cloud AI** | AI<br>Agent | [View<br>Prompt](./browser-use-cloud-ai.md) |
-| **Kimi K2<br>AI** | AI<br>Agent | [View<br>Prompt](./kimi-k2-ai.md) |
-| **Emergent<br>AI** | *Uncon-<br>firmed* | [View<br>Prompt](./emergent-ai.md) |
-| **Orchids<br>AI** | Code<br>Gen | [View<br>Prompt](./orchids-ai.md) |
-| **Gemini 2.5<br>Flash (Angular)** | AI Studio<br>App Build | [View<br>Prompt](./gemini-2.5-flash-angular.md) |
-| **Gemini 2.5<br>Flash (React)** | AI Studio<br>App Build | [View<br>Prompt](./gemini-2.5-flash-react.md) |
-| **Gemini 3<br>Flash Pre. (React)** | AI Studio<br>App Build | [View<br>Prompt](./gemini-3-flash-preview-react.md) |
-| **LearnLM 2.5<br>Flash Exp.** | Google<br>Series | [View<br>Prompt](./learnlm-2.5-flash-experimental.md) |
-| **Chrome DevTools<br>AI Assistant** | Dev<br>Tool | [View<br>Prompt](./chrome-devtools-ai-assistant.md) |
+| **Gemini 2.5<br>Flash** | Popular<br>AI | [View<br>Prompt](./Google/Gemini%202.5%20Flash.md) |
+| **Gemini 2.5<br>Pro** | *Uncon-<br>firmed* | [View<br>Prompt](./Google/Gemini%202.5%20Pro.md) |
+| **Gemma<br>27B-it** | Popular<br>AI | [View<br>Prompt](./Google/Gemma%2027B-it.md) |
+| **Gemini 2.5<br>Flash Image** | Nano<br>Banana | [View<br>Prompt](./Google/Gemini%202.5%20Flash%20Image.md) |
+| **Llama 4<br>(Meta AI)** | Popular<br>AI | [View<br>Prompt](./Meta/Llama%204.txt) |
+| **DeepSeek** | *Uncon-<br>firmed* | [View<br>Prompt](./Open%20source/DeepSeek) |
+| **Venice<br>AI** | Uncen-<br>sored | [View<br>Prompt](./Open%20source/Venice%20AI.md) |
+| **Manus<br>AI** | Agent /<br>Arch. | [View<br>Prompt](./Manus%20AI/Manus%20AI.md) |
+| **Browser Use<br>Cloud AI** | AI<br>Agent | [View<br>Prompt](./Browser%20Use%20Cloud%20AI%20Agent/Browser%20Use%20Cloud%20AI%20Agent.md) |
+| **Kimi K2<br>AI** | AI<br>Agent | [View<br>Prompt](./Open%20source/Kimi%20K2%20AI.md) |
+| **Emergent<br>AI** | *Uncon-<br>firmed* | [View<br>Prompt](./Emergent%20AI/Update%20System%20prompt.md) |
+| **Orchids<br>AI** | Code<br>Gen | [View<br>Prompt](./Open%20source/Orchids%20AI.md) |
+| **Gemini 2.5<br>Flash (Angular)** | AI Studio<br>App Build | [View<br>Prompt](./Google/Gemini%202.5%20Flash%20Angular.md) |
+| **Gemini 2.5<br>Flash (React)** | AI Studio<br>App Build | [View<br>Prompt](./Google/Gemini%202.5%20Flash%20React.md) |
+| **Gemini 3<br>Flash Pre. (React)** | AI Studio<br>App Build | [View<br>Prompt](./Google/Gemini%203%20Flash%20Preview%20React.md) |
+| **LearnLM 2.5<br>Flash Exp.** | Google<br>Series | [View<br>Prompt](./Google/Learnlm%202.5%20Flash%20experimental.md) |
+| **Chrome DevTools<br>AI Assistant** | Dev<br>Tool | [View<br>Prompt](./Google/Chrome%20DevTools%20AI%20Assistant.md) |
+| **Manus System<br>Architecture** | AI full<br>system arch | [View<br>Prompt](./AI%20full%20system%20architectures/Manus%20AI) |
 
 ---
 ## Contributions<br>and Requests
